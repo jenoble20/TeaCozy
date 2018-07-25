@@ -57,6 +57,59 @@ header{
 
 /*Main Content*/
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.description h2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.description h4{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tea.image{
+  height: 200px;
+  width: 300px;
+}
+
+.container .description{
+  padding-bottom: 15px;
+}
+
+.berry.tea.image{
+  background-image: url("../../Resources/Images/img-berryblitz.jpg")
+}
+
+.rum.tea.image{
+  background-image: url("../../Resources/Images/img-spiced-rum.jpg");
+}
+
+.donuts.tea.image{
+  background-image: url("../../Resources/Images/img-donut.jpg");
+}
+
+.myrtle.tea.image{
+  background-image: url("../../Resources/Images/img-myrtle-ave.jpg");
+}
+
+.bedford.tea.image{
+  background-image: url("../../Resources/Images/img-bedford-bizarre.jpg")
+}
+
+#examples{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 #main{
   display: flex;
   flex-direction: column;
@@ -66,12 +119,8 @@ header{
 }
 
 #mission{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 1200px;
   height: 700px;
-  text-align: center;
   background-size: cover;
   background-image: url("../../Resources/Images/img-mission-background.jpg");
 }
@@ -82,11 +131,24 @@ header{
   margin-top: 140px;
 }
 
-#mission div h2{
-  margin-top: 10px;
-  margin-bottom: 0px;
+#featured{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 1000px;
 }
-#mission div h4{
-  margin-top: 20px;
-  margin-bottom: 10px;
+
+#examples{
+  display: flex;
+  flex-wrap: wrap;
 }
+
+#myrtle{
+  margin-left: 165px;;
+}
+
+#bedford{
+  margin-right: 165px;;
+}
+
+/*Locations section*/
