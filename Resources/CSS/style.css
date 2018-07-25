@@ -16,7 +16,9 @@ a{
 
 header{
   position: fixed;
-  width: 100%
+  background-color: black;
+  width: 100%;
+  margin-top: -8px;
 }
 
 #header{
@@ -28,9 +30,7 @@ header{
 }
 
 #logo{
-  background-image: url(../../Resources/Images/img-tea-cozy-logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url("../../Resources/Images/img-tea-cozy-logo.png");
   width: 175px;
   height: 50px;
   margin-right: auto;
@@ -38,6 +38,8 @@ header{
 }
 
 #nav{
+  display: flex;
+  flex-wrap: wrap;
   margin-right: 10px;
 }
 
@@ -45,4 +47,46 @@ header{
   display: inline;
   text-decoration: underline;
   padding: 0px 10px;
+}
+
+.image{
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/*Main Content*/
+
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+#mission{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+  background-size: cover;
+  background-image: url("../../Resources/Images/img-mission-background.jpg");
+}
+
+#mission div{
+  background-color: black;
+  width: 100%;
+  margin-top: 140px;
+}
+
+#mission div h2{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#mission div h4{
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
