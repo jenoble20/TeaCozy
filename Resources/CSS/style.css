@@ -160,6 +160,8 @@ header{
 .address{
   background-color: black;
   width: 300px;
+  margin: 0px 20px;
+  opacity: 1;
 }
 
 #locations{
@@ -174,5 +176,29 @@ header{
 }
 
 #locations .container{
-  justify-content: space-around;
+  justify-content: center;
+}
+
+
+
+/*Footer Section*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#contact{
+  text-align: center;
+  width: 100%;
+}
+
+#contact h2{
+  margin-bottom: 40px;
+}
+
+#copy{
+  padding-left: 20px;
 }
