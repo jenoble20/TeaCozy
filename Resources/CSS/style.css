@@ -104,17 +104,6 @@ header{
   background-image: url("../../Resources/Images/img-bedford-bizarre.jpg")
 }
 
-#examples{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-#examples h4{
-  margin-top: 10px;
-}
-
 #main{
   display: flex;
   flex-direction: column;
@@ -145,7 +134,13 @@ header{
 
 #examples{
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
+}
+
+#examples h4{
+  margin-top: 10px;
 }
 
 #myrtle{
@@ -181,7 +176,6 @@ header{
 }
 
 
-
 /*Footer Section*/
 
 footer{
@@ -196,10 +190,15 @@ footer{
   width: 100%;
 }
 
+#contact h5{
+  font-size: 1.3rem;
+}
+
 #contact h2{
   margin-bottom: 40px;
 }
 
 #copy{
+  font-size: 1rem;
   padding-left: 20px;
 }
